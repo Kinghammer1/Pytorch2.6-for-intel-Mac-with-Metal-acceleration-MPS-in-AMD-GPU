@@ -1,5 +1,5 @@
 # Pytorch2.6-for-intel-Mac-with-Metal-acceleration-MPS-in-AMD-GPU
-Pytorch2.6 for intel Mac with Metal acceleration on AMD GPU
+Pytorch2.6 for intel Mac with Metal acceleration on AMD GPU on Python==3.10
 _________________________________________________________________
 # 1️⃣Abstract/前言
 Apple官方为intel芯片的Mac提供的Pytoch版本仅支持到Pytoch=2.2Version，https://developer.apple.com/metal/pytorch/ \
