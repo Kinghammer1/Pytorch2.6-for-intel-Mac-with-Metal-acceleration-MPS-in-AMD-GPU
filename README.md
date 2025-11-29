@@ -2,12 +2,20 @@
 Pytorch2.6 for intel Mac with Metal acceleration on AMD GPU on Python==3.10
 _________________________________________________________________
 # 1️⃣Abstract/前言
-Apple官方为intel芯片的Mac提供的Pytoch版本仅支持到Pytoch=2.2Version，https://developer.apple.com/metal/pytorch/ \
-所以我创建了Pytorch2.6 for intel Mac with Metal acceleration on AMD GPU，以更好的为老款Mac提供MPS加速支持和更高版本的Pytorch和TorchVision \
-如需whl版本，可以直接到Release下载，支持Python=3.10 and TorchVision=v0.21.0
+1.Apple官方为intel芯片的Mac提供的Pytoch版本仅支持到Pytoch=2.2Version，https://developer.apple.com/metal/pytorch/ \
+2.所以我创建了Pytorch2.6 for intel Mac with Metal acceleration on AMD GPU，以更好的为老款Mac提供MPS加速支持和更高版本的Pytorch和TorchVision \
+3.如需whl版本，可以直接到Release下载，支持Python=3.10 and TorchVision=v0.21.0 \
+4.来源：https://github.com/pytorch/pytorch
 _________________________________________________________________
-# 2️⃣Methods/方法
-***来自Deepseek，已经验证可行***
+# 2️⃣Using Directly/直接使用
+Python 3.10 Environment \
+pip install torch-2.6.0a0+git1eba9b3-cp310-cp310-macosx_11_0_x86_64.whl \
+pip install torchvision-0.21.0+7af6987-cp310-cp310-macosx_11_0_x86_64.whl \
+
+_________________________________________________________________
+# 3️⃣Methods/构建方法
+***来自Deepseek，已经验证可行*** \
+***如果需要直接使用，安装2️⃣Using Directly/直接使用自行安装即可***
 ## 环境准备
 
 ### 1. 清理环境并安装依赖
@@ -319,7 +327,7 @@ pip install dist/torch-2.6.0*.whl
 ```
 
 _________________________________________________________________
-# 3️⃣Test/测试脚本
+# 4️⃣Test/测试脚本
 Python \
 import torch \
 print(torch.__version__)  # 应为 2.6.0 \
