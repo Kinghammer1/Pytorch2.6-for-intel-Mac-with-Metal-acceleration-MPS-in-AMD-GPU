@@ -10,7 +10,7 @@ _________________________________________________________________
 # 2️⃣Using Directly/直接使用
 Python 3.10 Environment \
 pip install torch-2.6.0a0+git1eba9b3-cp310-cp310-macosx_11_0_x86_64.whl \
-pip install torchvision-0.21.0+7af6987-cp310-cp310-macosx_11_0_x86_64.whl \
+pip install torchvision-0.21.0+7af6987-cp310-cp310-macosx_11_0_x86_64.whl 
 
 _________________________________________________________________
 # 3️⃣Methods/构建方法
