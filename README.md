@@ -332,3 +332,25 @@ Python \
 import torch \
 print(torch.__version__)  # 应为 2.6.0 \
 print(torch.backends.mps.is_available())  # 应为 True 
+_________________________________________________________________
+# 5️⃣Testing Result/实测结果
+PyTorch版本: 2.6.0a0+git1eba9b3
+MPS可用: True
+MPS设备:
+检查torch.matmul算子设备...
+CPU matmul测试...
+CPU matmul 100次总时间: 0.6217秒
+CPU matmul平均每次时间: 0.006217秒
+CPU matmul结果设备: cpu
+
+MPS matmul测试...
+MPS matmul 100次总时间: 0.0069秒
+MPS matmul平均每次时间: 0.000069秒
+MPS matmul结果设备: mps:0
+
+性能比较:
+CPU总时间: 0.6217秒
+MPS总时间: 0.0069秒
+加速比 (CPU/MPS): 89.74x
+🎉 MPS比CPU快 89.74 倍
+CPU和MPS结果最大差异: 0.00023651
