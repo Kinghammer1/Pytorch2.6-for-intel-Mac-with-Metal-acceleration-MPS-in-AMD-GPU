@@ -1,4 +1,4 @@
-# Pytorch2.6-for-intel-Mac-with-Metal-acceleration-MPS-in-AMD-GPU
+# Pytorch2.6-for-MPS-AMDGPU-Mac
 Pytorch2.6 for intel Mac with Metal acceleration on AMD GPU on Python==3.10
 _________________________________________________________________
 # 1️⃣Abstract/前言
